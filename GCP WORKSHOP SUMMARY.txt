@@ -1,0 +1,33 @@
+#day 1 #vimaldaga #selfreflection #gcpcloud #gcpservices
+1.Google Cloud Platform is a cloud computing platform and offers infrasturcture as a services.
+2.Google cloud platform is a public cloud which provides cloud services and can be accessed  through api and gcloud shell .
+3.GCP has API for their respective services.
+-->Region and Zones
+-->Multi-Region
+4.GCP has multiple Zones in a Region for Disaster Management.for ex:mumbai has 3 regions.
+5.Gcp has various services such compute engine,Networking, Storage, Big Data, Machine Learning and Management and much more.
+6.Compute Services provide RAM ,CPU,HD to provision the OS.
+7.Virtual Private Cloud (VPC) provides networking functionality to Compute Engine virtual machine (VM) instances, Google Kubernetes Engine (GKE) clusters, and the App Engine flexible environment.
+8. VPC provides networking for your cloud-based resources and services that is global, scalable, and flexible.
+9.Cloud Shell provides command-line access to the virtual machine instance in a terminal window.
+10. You can open multiple shell connections to the same instance. Just run gcloud --help to view the gcloud command-line tool commands available to you.
+
+#day 2 #vimaldaga #selfreflection #gke #gcpcloud #gcpservices #IAM #K8S
+11.Kubernetes is a  open-source platform for managing containerized workloads and services that facilitates both declarative configuration and automation.
+12.Google kubernetes engine provides one command to connect to master and slave using Windows or wherever you are g-cloud program running then you can run all the kubernetes command. 
+13.Kubectl is a important tool.Using kubectl we can control  various things in system such as
+kubectl get pods -o wide
+Kubectl get nodes
+Kubectl get pods
+Kubectl get ns
+14.Replica controller is outdated whereas we use replica sets nowadays.
+15.replica are the one that do horizontal scaling.
+16.GCP cloud has  a load balancer service that handles the load.
+17. ConfigurING load balancer using kubernetes that take gcp external load balancer.
+18.Creation a kubernetes  cluster in gcp : we have to set the location type as zonal or regional . 
+19.In the node pools we have to set image type, machine type, boot disc , one node per zone in slave nodes 
+20.GCP has also provided as one SQL service that we can use as a backend to connect our wordpress pod as a front end. 
+21. we have to provide instance ID  ,root password ,location and version and we also have to set firewall rule for creation.
+22. Through IAM, we can give access to multiple user a owner power other one as a view power while another one as a edit power only.
+23.Initially gcp create root account for us that has all the power to do anything in any of the project this power is known as role this role is typically known as owner role.
+
